@@ -1,0 +1,9 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'base/**/*';
+@import 'components/**/*';
+
+body {
+  margin: auto;
+  max-width: 25em;
+}

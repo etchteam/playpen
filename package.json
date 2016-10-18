@@ -1,0 +1,35 @@
+{
+  "name": "playpen",
+  "version": "1.0.0",
+  "description": "Playing around with some SCSS styles",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etchteam/playpen.git"
+  },
+  "keywords": [
+    "playpen",
+    "scss"
+  ],
+  "author": "Etch team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etchteam/playpen/issues"
+  },
+  "homepage": "https://github.com/etchteam/playpen#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "browser-sync": "^2.17.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.6",
+    "normalize.css": "^5.0.0"
+  }
+}
